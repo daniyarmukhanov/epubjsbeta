@@ -148,6 +148,7 @@ class Themes {
 	}
 
 	fontSize (size) {
+		console.log("here comes");
 		this.override("font-size", size);
 	}
 
