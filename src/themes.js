@@ -152,6 +152,10 @@ class Themes {
 		this.override("font-size", size);
 	}
 
+	fontFamily (name) {
+		this.override("font-family", name);
+	}
+
 }
 
 export default Themes;
